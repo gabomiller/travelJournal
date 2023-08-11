@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    justify-content: center;
+    width: auto;
+    height: 55px;
+    flex-shrink: 0;
+    background: #F55A5A;
+}
+
+.header--globe {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.header--title {
+    color: #FFF;
+    font-size: 14.461px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.085px;
+}
+
+
+.entry--main {
+    display: flex;
+    padding: 40px;
+    width: auto;
+}
+
+.entry--right {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 19px;
+    
+}
+
+.entry--pic {
+    width: 125px;
+    height: 168px;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+.entry--locationRow {
+    display: flex;
+    align-items: center;
+    gap: 4px;   
+}
+
+.entry--location {
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.741px;
+    margin-right: 12px;
+}
+
+.entry--title {
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 10px
+}
+
+.entry--mapsLink {
+    color: #918E9B;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.entry--date {
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.entry--description {
+    color: #2B283A;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 15.36px */
+    margin: 0px;
+}
+
+.entry--line {
+    background: lime;
+    color: lime;
+    height: 3px;
+}
